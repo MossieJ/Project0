@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>My Webpage(Project0)</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
     <style>
         h1 {color:rgb(214, 185, 57); font-style: italic; text-align: center;}
@@ -14,18 +15,20 @@
            background-repeat: no-repeat;
            background-attachment:fixed }
 
-           button {
+        .button {
             white-space: space 1;
             font-family:cursive;
             font-size:large;
             line-height: 1.5;
             color:rgb(255, 81, 0);
-            background-color:rgb(0, 0, 0)
+            background-color:rgb(0, 0, 0);
             }
+
+        .button-container {text-align: center;}
 	        
         
     </style>
-    <body>
+    <body><div class="index">
         <h1>Hello, world!</h1>
         <u><h2>This website will introduce me and tell you more about me!</h2></u>
         <ul>
@@ -38,9 +41,11 @@
 
             <h4>For further introduction, please follow the links!</h4>
 
-        <a href="link1.html"><button>Extreme Ed</button></a>
-        <a href="link2.html"><button>Hobbies</button></a>
-        <a href="link3.html"><button>Theme</button></a>
+        <div class="button-container">
+        <a href="link1.html"><button class="button">Extreme Ed</button></a>
+        <a href="link2.html"><button class="button">Hobbies</button></a>
+        <a href="link3.html"><button class="button">Theme</button></a>
+    </div>
         
-    </body>
+</div></body>
 </html>
