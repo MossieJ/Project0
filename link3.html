@@ -1,10 +1,16 @@
 <!DOCTyPE html>
 <html>
     <head><Title: Theme!>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            h1 {color:black;font-style: Times;font-size: 300%;text-align:center;}
+            h2 {color:black;font-style: courier;font-size: 200%;}
+            h3 {color: black;font-style: courier;font-size: 200%;}
+
+
             .grid {
-                background-color: brown;
+                background-color:transparent;
                 display: grid;
                 padding: 10px;
                 grid-column-gap: 10px;
@@ -12,22 +18,45 @@
                 grid-template-columns: 200px 200px auto;
             }
             .grid-item {
-                background-color: white;
+                background-color:rgba(0, 0, 0, 0.459);
                 font-size: 20px;
-                padding: 20px;
+                padding: 0px;
                 text-align: center;
+                color:rgb(199, 194, 194)
             }
 
-            
+            table, th, td {
+                border: 2px solid black;
+                
+            }
+            th {text-align: center;
+            color:brown}
+            td {text-align: center;
+            color:rgb(40, 218, 17)}
+
+            .button {
+            white-space: space 1;
+            font-family:cursive;
+            font-size:large;
+            line-height: 1.5;
+            color:rgb(255, 81, 0);
+            background-color:rgb(0, 0, 0);
+            text-align: center;
+            }
+            .button-container {text-align: center;}
 
             body {background-image: url("https://a-static.besthdwallpaper.com/battlefield-4-game-soldiers-high-five-wallpaper-3840x2160-16530_54.jpg"); 
            background-size: cover ;
            background-repeat: no-repeat;
            background-attachment:fixed }
+
+           p  {color:rgb(255, 175, 1); text-align: center;}
+
+           
         </style>
     </head>
-    <body>
-        <h1>Theme:</h1>
+    <body><div class="link3">
+        <h1><u>Theme:</u></h1>
         <p>Throughout this website the background theme is gaming. Why ?
             this page will explain it.
         </p>
@@ -65,6 +94,7 @@
             <div class="grid-item">Cyberpunk 2077 is one of the most anticipated games ever. Kill, steal, deal, build yourself and strive in the futuristic setting of 2077. Replace limbs and bodyparts with computer chips, prosthetic weapons and limbs to become a deadly foe in the midst of gangs, corporations and corruption. I can not wait for this game and I hope CD Projekt Red will live up to the expectations of their millions of fans.</div>
         </div>
 
+
         <div><h3>Call of Duty MW(2019) trailer:</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/J7Ivdq5E-fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div><h3>Battlefield 4(2013) trailer:</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/hl-VV9loYLw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -73,6 +103,7 @@
         <div><h3>Cyberpunk 2077(2020) trailer:</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/UjxS9ciNlII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
-        <a href="index.html"><button>Home</button></a>
-    </body>
+        <div class="button-container"><a href="index.html"><button class="button">Home</button></a></div>
+        
+    </div></body>
 </html>
