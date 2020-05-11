@@ -9,7 +9,7 @@ The project0 instructions of content are seen in the following:
 
 element {} (element type selector)		- all files (incl. scss)
 #element {} (id selector)				- link3
-.element {} (class selector)			- all files
+.element {} (class selector)			- all files (incl. scss)
 a:hover {} (Pseudo-class)				- scss file
 * {} (Universel selector)				- scss file
 
@@ -24,7 +24,7 @@ Ordered/Unorderd list					- index.html/link1.html/link2.html/link3
 grid							        - link3.html
 text customisation                      - link3.html, success.html, variables.html
 
-Note: There is a secret link on link3.html, this link contains 1 inheritence element.
+Note: There is a secret link on link3.html, this link contains 1 inheritence element (success notification).
     Some Style content found on link.html files due to minor issues with .scss file.
 
 Project0 runs with a theme of gaming with gaming background.
